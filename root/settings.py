@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'django_extensions',
+    'baseapp',
 ]
 
 MIDDLEWARE = [
@@ -134,4 +135,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SHELL_PLUS = "ipython"
 
-AUTH_USER_MODEL = 'base_app.User'
+AUTH_USER_MODEL = 'baseapp.User'
